@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    text-align: center;
+    color: red;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery .item{
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.item img{
+    width: 100%;
+    display: block;
+}

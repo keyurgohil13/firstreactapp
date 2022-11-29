@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+.cards{
+  width: 1140px;
+  margin: 0 auto;
+  background-color: aquamarine;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-item{
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+h6{
+  font-size: 30px;
+  color: red;
+}
